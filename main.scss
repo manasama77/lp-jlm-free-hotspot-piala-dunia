@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --bnetfit-btn-color: #00d6d8;
+  --bnetfit-btn-secondary-color: #1433bf;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 3vh;
+  transition: all 3 ease;
+}
+
+a:visited {
+  background-color: var(--bnetfit-btn-color);
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  font-size: 3vh;
+}
+
+a:active {
+  background-color: var(--bnetfit-btn-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: url("bannerHI1Mobile.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    .image-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      img {
+        min-width: 100px;
+        max-width: 150px;
+        width: 120px;
+      }
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+
+    .btn-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+      .btn-start {
+        background-color: var(--bnetfit-btn-color);
+        color: var(--bnetfit-btn-secondary-color);
+        height: auto;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 2rem;
+        transition: all 0.3s;
+      }
+      .btn-start:focus {
+        background-color: var(--bnetfit-btn-color);
+      }
+      .btn-start:hover {
+        box-shadow: 5px 10px #001849;
+      }
+    }
+    .footer {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      bottom: 50px;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background: url("bannerHI1Mobile.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    .image-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      img {
+        min-width: 100px;
+        max-width: 150px;
+        width: 120px;
+      }
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+
+    .btn-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+      .btn-start {
+        background-color: var(--bnetfit-btn-color);
+        color: var(--bnetfit-btn-secondary-color);
+        height: auto;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 2rem;
+        transition: all 0.3s;
+      }
+      .btn-start:focus {
+        background-color: var(--bnetfit-btn-color);
+      }
+      .btn-start:hover {
+        box-shadow: 5px 10px #001849;
+      }
+    }
+    .footer {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      bottom: 50px;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: url("bannerHI1Mobile.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    .image-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      img {
+        min-width: 100px;
+        max-width: 150px;
+        width: 120px;
+      }
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+
+    .btn-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+      .btn-start {
+        background-color: var(--bnetfit-btn-color);
+        color: var(--bnetfit-btn-secondary-color);
+        height: auto;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 2rem;
+        transition: all 0.3s;
+      }
+      .btn-start:focus {
+        background-color: var(--bnetfit-btn-color);
+      }
+      .btn-start:hover {
+        box-shadow: 5px 10px #001849;
+      }
+    }
+    .footer {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      bottom: 50px;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background: url("bannerHI1Desktop.webp") no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    .image-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: left;
+      margin-top: 100px;
+      img {
+        min-width: 100px;
+        max-width: 300px;
+        width: 250px;
+      }
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: left;
+      margin-top: 50px;
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 60%;
+      display: flex;
+      justify-content: left;
+      text-align: left;
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+
+    .btn-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: left;
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+      .btn-start {
+        background-color: var(--bnetfit-btn-color);
+        color: var(--bnetfit-btn-secondary-color);
+        height: auto;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 2rem;
+        transition: all 0.3s;
+      }
+      .btn-start:focus {
+        background-color: var(--bnetfit-btn-color);
+      }
+      .btn-start:hover {
+        box-shadow: 5px 10px #001849;
+      }
+    }
+    .footer {
+      position: fixed;
+      display: flex;
+      justify-content: left;
+      bottom: 50px;
+      margin-left: 10px;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: url("bannerHI1Desktop.webp") no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+    .image-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: left;
+      margin-top: 100px;
+      img {
+        min-width: 100px;
+        max-width: 300px;
+        width: 250px;
+      }
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: left;
+      margin-top: 50px;
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 60%;
+      display: flex;
+      justify-content: left;
+      text-align: left;
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+
+    .btn-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: left;
+      .btn {
+        padding: 0.5rem 1rem;
+      }
+      .btn-start {
+        background-color: var(--bnetfit-btn-color);
+        color: var(--bnetfit-btn-secondary-color);
+        height: auto;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 2rem;
+        transition: all 0.3s;
+      }
+      .btn-start:focus {
+        background-color: var(--bnetfit-btn-color);
+      }
+      .btn-start:hover {
+        box-shadow: 5px 10px #001849;
+      }
+    }
+    .footer {
+      position: fixed;
+      display: flex;
+      justify-content: left;
+      bottom: 50px;
+      margin-left: 10px;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
